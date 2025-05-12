@@ -1,8 +1,11 @@
 {
+  "redirects": [{"source": "/",       "destination": "https://thoughtly.com",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://thoughtly.com/$1"
- }
+    }
   ]
 }
+    
